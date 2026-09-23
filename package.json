@@ -1,0 +1,12 @@
+{
+  "name": "playwright-ai-agents-mcp",
+  "version": "1.0.0",
+  "description": "Playwright automation project exploring AI agents and MCP integrations.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest"
+  }
+}
