@@ -1,19 +1,31 @@
 # Playwright AI Agents MCP
 
-Projeto da série **Playwright na Prática** do canal Willames Vital QA.
+Projeto da série **Playwright na Prática** do canal **Willames Vital QA**.
 
 ## Sobre o projeto
 
-Este repositório é a base inicial para explorar automação de testes com **Playwright** e futuras integrações com inteligência artificial e MCP (Model Context Protocol).
+Este repositório representa a primeira etapa do projeto apresentado no episódio:
 
-O objetivo deste primeiro projeto é preparar o ambiente de automação e criar uma base para os próximos experimentos envolvendo Playwright, agentes de IA e automação inteligente.
+**Da Criação à Correção: Testes Automatizados com Playwright e Agentes MCP**
+
+O objetivo inicial é preparar uma base limpa de automação utilizando **Playwright Test com TypeScript**, que será evoluída posteriormente com integrações de inteligência artificial, MCP (Model Context Protocol) e agentes de automação.
+
+Neste momento, o projeto contém apenas a configuração inicial do ambiente Playwright.
 
 ## Tecnologias utilizadas
 
 - Playwright
+- Playwright Test
 - TypeScript
 - Node.js
-- Playwright Test
+
+## Pré-requisitos
+
+Antes de iniciar, tenha instalado:
+
+- Node.js
+- npm
+- VS Code (recomendado)
 
 ## Instalação
 
@@ -35,13 +47,19 @@ Instale as dependências:
 npm install
 ```
 
-Instale os navegadores do Playwright:
+Instale os navegadores utilizados pelo Playwright:
 
 ```bash
 npx playwright install
 ```
 
-## Executando os testes
+## Validando a instalação
+
+Verifique a versão instalada:
+
+```bash
+npx playwright --version
+```
 
 Executar a suíte de testes:
 
@@ -49,37 +67,34 @@ Executar a suíte de testes:
 npx playwright test
 ```
 
-Executar utilizando a interface visual:
+> Atualmente o projeto possui apenas a configuração inicial do Playwright. Os testes e integrações serão adicionados durante a evolução da série.
 
-```bash
-npx playwright test --ui
-```
-
-## Estrutura do projeto
+## Estrutura atual do projeto
 
 ```text
 playwright-ai-agents-mcp
 │
-├── tests/
-│   └── exemplos de testes automatizados
-│
 ├── playwright.config.ts
 ├── package.json
-└── README.md
+├── package-lock.json
+├── README.md
+└── .gitignore
 ```
 
-## Próximos passos
+## Evolução do projeto
 
-Este projeto será evoluído ao longo da playlist com conteúdos relacionados a:
+Ao longo da playlist **Playwright na Prática**, este projeto será expandido com:
 
-- Automação de testes com Playwright;
-- Boas práticas de Quality Assurance;
-- Integração com ferramentas de IA;
-- MCP e agentes inteligentes;
-- Criação e manutenção de testes automatizados.
+- Configuração de agentes Playwright;
+- Integração com MCP;
+- Fluxos utilizando inteligência artificial;
+- Criação automatizada de testes;
+- Análise e manutenção de testes automatizados.
 
 ## Episódio relacionado
 
 **Playwright na Prática - Da Criação à Correção: Testes Automatizados com Playwright e Agentes MCP**
 
-Canal: Willames Vital QA
+Canal:
+
+**Willames Vital QA**
